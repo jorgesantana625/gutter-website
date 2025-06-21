@@ -22,7 +22,7 @@ body {
 header {
     background: white;      /* ✅ Fondo blanco */
     color: #004466;         /* ✅ Texto en azul oscuro (o el color que prefieras) */
-    padding: 40px 0;
+    padding: 30px 0;
     text-align: left;
 }
 
