@@ -90,7 +90,7 @@ footer {
     height: auto;
     max-width: 100%;
     object-fit: contain;
-    margin-left: 20px;
+    margin-left: 15px;
 }
 
 @media (max-width: 600px) {
