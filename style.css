@@ -101,7 +101,12 @@ footer {
 
 @media (max-width: 600px) {
     .logo-container {
-        flex-direction: column;
+        display: flex;
+        align-items: center;
+        justify-content: left-start;
+        gap: 20px;
+        flex-wrap: wrap;
+        margin-bottom: 20px;
     }
 
     .logo-container img {
