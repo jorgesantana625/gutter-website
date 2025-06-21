@@ -85,16 +85,12 @@ footer {
     transform: translateY(0);
 }
 
-.logo-container {
-    display: flex;
-    align-items: center;
-    justify-content: left-start;
-    gap: 20px;
-    flex-wrap: wrap;
-    margin-bottom: 20px;
-}
+@media (max-width: 600px) {
+    .logo-container {
+        flex-direction: column;
+    }
 
-.logo-container img {
-    max-height: 80px;
-    width: auto;
+    .logo-container img {
+        max-height: 80px;
+    }
 }
