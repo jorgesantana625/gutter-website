@@ -101,8 +101,7 @@ footer {
 
 @media (max-width: 600px) {
     .logo-container {
-        display: flex;
-        align-items: center;
+        display: flex;        
         justify-content: left-start;
         gap: 20px;
         flex-wrap: wrap;
