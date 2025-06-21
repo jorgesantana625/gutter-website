@@ -120,7 +120,7 @@ footer {
 .call-now-container {
     display: none; /* oculto por defecto */
     text-align: center;
-    margin-top: 8px;
+    margin-top: 5px;
 }
 
 .call-now-button {
