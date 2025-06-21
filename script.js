@@ -17,3 +17,15 @@ document.addEventListener("DOMContentLoaded", () => {
         observer.observe(section);
     });
 });
+
+<script>
+  function toggleQuoteForm() {
+    const formSection = document.getElementById('quote-form');
+    if (formSection.style.display === 'none') {
+      formSection.style.display = 'block';
+      formSection.scrollIntoView({ behavior: 'smooth' });
+    } else {
+      formSection.style.display = 'none';
+    }
+  }
+</script>
