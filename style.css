@@ -85,14 +85,6 @@ footer {
     transform: translateY(0);
 }
 
-.logo-container img {
-    max-height: 120px;
-    height: auto;
-    width: auto;           /* ✅ asegura que NO se estire horizontalmente */
-    max-width: 100%;       /* ✅ evita que se pase del borde en móviles */
-    object-fit: contain;
-}
-
 @media (max-width: 600px) {
     .logo-container {
         flex-direction: column; /* hace que se apile verticalmente */
