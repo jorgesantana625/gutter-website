@@ -117,23 +117,30 @@ footer {
     }
 }
 
-.call-now-button {
-    background-color: red;
-    color: white;
-    padding: 8px 32px;      /* 🔽 menos alto (8px), más ancho (32px) */
-    border-radius: 5px;
-    font-weight: bold;
-    text-decoration: none;
-    font-size: 16px;        /* 🔽 tamaño de texto más equilibrado */
-    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.25);
-    display: inline-block;
-    margin-top: 4px;        /* 🔽 más pegado al logo/título */
-}
-
 .call-now-container {
     display: none;
     text-align: center;
-    margin-top: 0;          /* 🔽 sin espacio extra encima */
+    margin-top: 0;
+}
+
+.call-now-button {
+    background-color: red;
+    color: white;
+    padding: 8px 32px;
+    border-radius: 5px;
+    font-weight: bold;
+    text-decoration: none;
+    font-size: 16px;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.25);
+    display: inline-block;
+    margin-top: 4px;
+}
+
+/* Mostrar solo en móvil */
+@media screen and (max-width: 600px) {
+    .call-now-container {
+        display: block;
+    }
 }
 
 
