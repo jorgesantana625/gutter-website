@@ -93,6 +93,14 @@ footer {
     margin-left: 15px;
 }
 
+.logo-container {
+    display: flex;
+    align-items: center;      /* Alinea verticalmente logo + texto */
+    justify-content: flex-start;
+    gap: 15px;                /* Espacio entre logo y texto */
+    flex-wrap: wrap;
+}
+
 @media (max-width: 600px) {
     .logo-container {
         flex-direction: column; /* hace que se apile verticalmente */
