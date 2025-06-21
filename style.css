@@ -145,7 +145,7 @@ footer {
 
 /* Hero section with background image */
 .hero {
-    background-image: url('assets/hero.JPG'); /* 🔁 reemplaza con tu imagen */
+    background-image: url('assets/hero.WEBP'); /* 🔁 reemplaza con tu imagen */
     background-size: cover;
     background-position: center;
     height: 300px;
