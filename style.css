@@ -96,3 +96,14 @@ footer {
     max-height: 80px;
     width: auto;
 }
+
+@media (max-width: 600px) {
+    .logo-container {
+        flex-direction: column;
+    }
+
+    .logo-container img {
+        max-height: 80px;
+    }
+}
+
