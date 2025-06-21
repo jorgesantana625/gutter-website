@@ -17,13 +17,14 @@ body {
     max-width: 1000px;
     margin: 0 auto;
     padding: 20px;
+    text-align: left;
 }
 
 header {
     background: #004466;
     color: white;
     padding: 40px 0;
-    text-align: center;
+    text-align: left;
 }
 
 header h1 {
@@ -86,8 +87,8 @@ footer {
 
 .logo-container {
     display: flex;
-    align-items: center;
-    justify-content: center;
+    align-items: left;
+    justify-content: left;
     gap: 15px;
     flex-wrap: wrap;
 }
