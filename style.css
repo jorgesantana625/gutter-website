@@ -143,4 +143,77 @@ footer {
     }
 }
 
+/* Hero section with background image */
+.hero {
+    background-image: url('assets/hero.jpg'); /* 🔁 reemplaza con tu imagen */
+    background-size: cover;
+    background-position: center;
+    height: 300px;
+    position: relative;
+    color: white;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.hero::after {
+    content: "";
+    position: absolute;
+    top: 0; left: 0;
+    width: 100%; height: 100%;
+    background-color: rgba(0, 0, 0, 0.5); /* oscurecer imagen */
+    z-index: 1;
+}
+
+.hero-content {
+    position: relative;
+    z-index: 2;
+}
+
+.hero h2 {
+    font-size: 1.8em;
+    margin-bottom: 10px;
+}
+
+/* Reutiliza botón rojo */
+.quote-button {
+    margin-top: 10px;
+}
+
+/* Formulario de cotización */
+.quote-form-section {
+    background: white;
+    padding: 30px 20px;
+    text-align: center;
+}
+
+.quote-form {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    max-width: 400px;
+    margin: 0 auto;
+}
+
+.quote-form input,
+.quote-form button {
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+.quote-form button {
+    background-color: red;
+    color: white;
+    font-weight: bold;
+    border: none;
+    cursor: pointer;
+}
+
+.quote-form button:hover {
+    background-color: darkred;
+}
+
 
