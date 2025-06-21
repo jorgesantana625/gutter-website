@@ -20,8 +20,8 @@ body {
 }
 
 header {
-    background: #004466;
-    color: white;
+    background: white;      /* ✅ Fondo blanco */
+    color: #004466;         /* ✅ Texto en azul oscuro (o el color que prefieras) */
     padding: 40px 0;
     text-align: left;
 }
