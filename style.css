@@ -83,3 +83,16 @@ footer {
     opacity: 1;
     transform: translateY(0);
 }
+
+.logo-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 15px;
+    flex-wrap: wrap;
+}
+
+.logo-container img {
+    max-height: 80px;
+    width: auto;
+}
