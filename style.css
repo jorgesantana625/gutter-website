@@ -87,10 +87,16 @@ footer {
 
 @media (max-width: 600px) {
     .logo-container {
-        flex-direction: column;
+        flex-direction: column; /* hace que se apile verticalmente */
+        align-items: flex-start;
     }
 
     .logo-container img {
-        max-height: 80px;
+        max-height: 60px; /* aquí ajustas el tamaño del logo */
+    }
+
+    .logo-container h1 {
+        font-size: 1.5em;
+        text-align: left;
     }
 }
