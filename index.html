@@ -28,14 +28,22 @@
 
 <section id="quote-form" class="quote-form-section" style="display: none;">
   <form class="quote-form" action="https://formspree.io/f/mzzgaqkz" method="POST">
-    <input type="text" placeholder="First Name" required>
-    <input type="text" placeholder="Last Name" required>
-    <input type="email" placeholder="Email" required>
-    <input type="text" placeholder="Address" required>
-    <input type="tel" placeholder="Phone Number" required>
+    <input type="text" name="first_name" placeholder="First Name" required>
+    <input type="text" name="last_name" placeholder="Last Name" required>
+    <input type="email" name="email" placeholder="Email" required>
+    <input type="text" name="address" placeholder="Address" required>
+    <input type="tel" name="phone" placeholder="Phone Number" required>
+
+    <!-- Optional subject (shows in email title) -->
+    <input type="hidden" name="_subject" value="New Quote Request from Website">
+
     <button type="submit">Submit</button>
-    <input type="hidden" name="_subject" value="New Quote Request">
   </form>
+
+  <!-- Optional confirmation message -->
+  <p class="confirmation-message" style="display: none; color: green; font-weight: bold; margin-top: 10px;">
+    Thank you! We'll get back to you shortly.
+  </p>
 </section>
 
     <section class="contact">
