@@ -87,10 +87,11 @@ footer {
 
 .logo-container {
     display: flex;
-    align-items: left;
-    justify-content: left;
-    gap: 15px;
+    align-items: center;
+    justify-content: left-start;
+    gap: 20px;
     flex-wrap: wrap;
+    margin-bottom: 20px;
 }
 
 .logo-container img {
