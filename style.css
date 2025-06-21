@@ -85,6 +85,14 @@ footer {
     transform: translateY(0);
 }
 
+.logo-container img {
+    max-height: 100px;     /* 👍 Tamaño equilibrado en PC */
+    width: auto;
+    height: auto;
+    max-width: 100%;
+    object-fit: contain;
+}
+
 @media (max-width: 600px) {
     .logo-container {
         flex-direction: column; /* hace que se apile verticalmente */
