@@ -220,13 +220,16 @@ footer {
     background-color: red;
     color: white;
     text-align: center;
-    padding: 10px 0;
+    padding: 12px 0;
     font-size: 18px;
     font-weight: bold;
     letter-spacing: 1px;
-    width: 100vw;          /* ✅ Full width of the viewport */
-    position: relative;
+
+    width: 100vw;     /* 🔥 forces full viewport width */
+    margin: 0;
     left: 0;
+    position: relative;
+    z-index: 2;
 }
 
 
