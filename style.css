@@ -216,4 +216,15 @@ footer {
     background-color: darkred;
 }
 
+.promo-bar {
+    background-color: red;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+    font-size: 18px;
+    font-weight: bold;
+    letter-spacing: 1px;
+    position: relative;
+    z-index: 1000;
+}
 
