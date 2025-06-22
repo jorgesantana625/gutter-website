@@ -161,7 +161,7 @@ footer {
     display: flex;
     align-items: center;
     justify-content: center;
-    padding-top: 160px;    /* Overrides the top to be 100px */
+    padding-top: 140px;    /* Overrides the top to be 100px */
 }
 
 .hero::after {
