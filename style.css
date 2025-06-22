@@ -16,7 +16,7 @@ body {
     max-width: 1000px;
     margin: 0 auto;
     padding: 20px;         /* Applies 20px on all sides */
-    padding-top: 150px;    /* Overrides the top to be 100px */
+    padding-top: 180px;    /* Overrides the top to be 100px */
     text-align: left;
 }
 
