@@ -224,7 +224,9 @@ footer {
     font-size: 18px;
     font-weight: bold;
     letter-spacing: 1px;
+    width: 100vw;          /* ✅ Full width of the viewport */
     position: relative;
-    z-index: 1000;
+    left: 0;
 }
+
 
