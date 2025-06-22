@@ -15,8 +15,7 @@ body {
     width: 90%;
     max-width: 1000px;
     margin: 0 auto;
-    padding: 20px;         /* Applies 20px on all sides */
-    padding-top: 300px;    /* Overrides the top to be 100px */
+    padding: 20px;         /* Applies 20px on all sides */    
     text-align: left;
 }
 
@@ -156,12 +155,13 @@ footer {
     background-size: cover;
     background-position: center;
     height: 300px;
-    position: relative;
+    position: relative;    
     color: white;
     text-align: center;
     display: flex;
     align-items: center;
     justify-content: center;
+    padding-top: 160px;    /* Overrides the top to be 100px */
 }
 
 .hero::after {
